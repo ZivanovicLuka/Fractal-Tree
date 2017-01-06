@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>
+      Fractal Tree
+    </title>
+  </head>
+  <body>
+    <div style='float:left'>
+      <canvas id="myCanvas">
+        Your browser does not support the HTML5 canvas tag.
+      </canvas>
+    </div>
+
+    <div id = "settings">
+      Size:<br/>
+      <input onchange="draw_tree()" id = 'len' type="range" min="20" max="200" step="5"><br/>
+      Age:<br/>
+      <input onchange="draw_tree()" id = 'width' type="range" min="5" max="15" step="1"><br/>
+      Left angle:<br/>
+      <input onchange="draw_tree()" id = 'lr' type="range" min="15" max="60" step="5" value="30"><br/>
+      Right angle:<br/>
+      <input onchange="draw_tree()" id = 'rr' type="range" min="15" max="60" step="5" value="30"><br/>
+      Left length:<br/>
+      <input onchange="draw_tree()" id = 'll' type="range" min="6" max="8" step="1" value='7'><br/>
+      Right length:<br/>
+      <input onchange="draw_tree()" id = 'rl' type="range" min="6" max="8" step="1" value='7'><br/>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
