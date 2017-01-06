@@ -1,8 +1,8 @@
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
 
-c.width  = window.innerWidth - 20;
-c.height = window.innerHeight - 4;
+c.width  = window.innerWidth - 30;
+c.height = window.innerHeight - 10;
 
 function color(width){
   red = Math.ceil(235*(width/start_width)).toString(16);
