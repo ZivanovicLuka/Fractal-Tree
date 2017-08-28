@@ -1,11 +1,15 @@
+body{
+  background:url('bg.jpg') bottom center;
+}
+
 #settings{
   position:absolute;
   left:0;
   top:0;
   padding: 5px;
   margin: 5px;
-  border:1px solid #dcaa12;
-  background:rgba(235,180,67,0.1);
-  color: #00aa00;
-  font-size:14px;
+  border:1px solid #BA3636;
+  background:rgba(11,22,22,0.9);
+  color: #BA3636;
+  font-size:17px;
 }
