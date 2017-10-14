@@ -7,6 +7,7 @@ Recursive way to draw a tree :)
 [**Preview here! (L-System)**](https://cdn.rawgit.com/Hrimthusar/Fractal-Tree/4e54f991/L-System/index.html)
 
 
-![Unable to show Screenshot](https://github.com/Hrimthusar/Fractal-Tree/blob/master/screenshots/screenshot1.jpg =300x)  
+<img src="/screenshots/screenshot1.jpg" alt="Classic" width=400px/>
 
-![Unable to show Screenshot](https://github.com/Hrimthusar/Fractal-Tree/blob/master/screenshots/screenshot2.jpg =300x)  
+<img src="/screenshots/screenshot2.jpg" alt="L-System" width=400px/>
+
